@@ -10,12 +10,15 @@ production stylesheet in assets/built/screen.css using: npm run dev
 
 /* Base components */
 @import "vars.css";
-@import "components/global.css";
+/* @import "components/global.css"; */
 @import "components/forms.css";
 @import "components/buttons.css";
 
+@import "custom.css";
+@import "article.css";
+
 /* Ghost components */
-@import "ghost/header.css";
+/*@import "ghost/header.css";
 @import "ghost/content.css";
 @import "ghost/readmore.css";
 @import "ghost/members.css";
@@ -23,12 +26,15 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/footer.css";
 @import "ghost/badge.css";
 @import "ghost/pagination.css";
-@import "ghost/comments.css";
+@import "ghost/comments.css";*/
 
-
+a {
+    color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 
 /* Main - Your styles here! Edit below
-/* ---------------------------------------------------------- */
+----------------------------------------------------------
 
 html,
 .gh-viewport {
@@ -88,6 +94,11 @@ html,
 .gh-head-actions a:last-child svg {
     height: 2rem;
 }
+
+
+
+
+
 
 /* Index
 /* ---------------------------------------------------------- */

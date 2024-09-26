@@ -1,10 +1,12 @@
 {{!< default}}
 
 {{#post}}
-<article class="gh-article {{post_class}}">
+
+<div class="post-container">
+<article class="cz-post {{post_class}}">
     {{#match @page.show_title_and_feature_image}}
     <header class="gh-header gh-canvas">
-        <h1 class="gh-title">{{title}}</h1>
+        <h2 class="gh-title">{{title}}</h2>
 
         {{#if custom_excerpt}}
             <p class="gh-excerpt">{{custom_excerpt}}</p>
@@ -21,9 +23,11 @@
     </header>
     {{/match}}
 
-    <div class="gh-content gh-canvas">
+    <div class="cz-content">
         {{content}}
     </div>
 
 </article>
+
+</div>
 {{/post}}

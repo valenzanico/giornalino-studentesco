@@ -1,7 +1,6 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
-    "demo": "https://starter.ghost.io",
+    "name": "iiscremonazappa-ghost-theme",
+    "description": "Theme for iiscremonazappa students magazine",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
@@ -18,14 +17,13 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Nicolo Valenza",
+        "email": "nico.vale.spazio@gmail.com",
+        "url": "https://algorithm-net.com"
     },
     "gpm": {
         "type": "theme",
         "categories": [
-            "Minimal",
             "Magazine"
         ]
     },
@@ -36,10 +34,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/valenzanico/giornalino-studentesco.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/valenzanico/giornalino-studentesco/issues",
     "devDependencies": {
         "@babel/core": "^7.21.0",
         "@babel/preset-env": "^7.20.2",
@@ -79,6 +76,14 @@
             },
             "xl": {
                 "width": 2000
+            }
+        },
+        "custom": {
+            "journal_number": {
+                "type": "text",
+                "default": "0",
+                "group": "homepage",
+                "description": "Inserisci il numero del ultimo giornalino"
             }
         }
     },

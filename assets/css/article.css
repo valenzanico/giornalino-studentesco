@@ -1,0 +1,26 @@
+.post-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cz-post {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cz-post h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+.cz-post p, .cz-content {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+}

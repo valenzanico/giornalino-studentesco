@@ -2,7 +2,18 @@
 Re-usable card for linking to posts
 --}}
 
-<article class="gh-card {{post_class}}">
+
+<article class="index-card {{post_class}}">
+   <a class="gh-card-link" href="{{url}}">
+          <h2 class="index-card-title">{{title}}</h2>
+          <p>
+            {{excerpt}}...
+            <br><strong>Leggi l'articolo</strong>
+          </p>
+          </a>
+</article>
+
+{{!-- <article class="gh-card {{post_class}}">
     <a class="gh-card-link" href="{{url}}">
         {{#if feature_image}}
             <picture class="gh-card-picture">
@@ -54,4 +65,4 @@ Re-usable card for linking to posts
             <strong>Read more</strong>
         </div>
     </a>
-</article>
+</article> --}}
