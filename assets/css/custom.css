@@ -28,12 +28,19 @@ body {
     opacity: 0.1;
 }
 .index-title {
-    font-size: 3.5em;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: 0;
-    color: var(--secondary-color);
-    text-shadow: 3px 3px 0px var(--dark-color);
+    font-family: 'Impact', sans-serif;
+        font-size: 5rem;
+            color: var(--secondary-color);
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 
+                3px 3px 0 var(--dark-color),
+                -3px -3px 0 var(--dark-color),
+                3px -3px 0 var(--dark-color),
+                -3px 3px 0 var(--dark-color);
+            transform: skew(-5deg);
+            margin: 0;
+
 }
 .subtitle {
     font-size: 1.2em;
