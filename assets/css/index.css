@@ -30,7 +30,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 
 a {
     color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+    text-decoration: inherit; /* no underline */
 }
 
 /* Main - Your styles here! Edit below

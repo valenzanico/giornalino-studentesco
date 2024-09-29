@@ -24,3 +24,36 @@
     color: #444;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width: 600px) {
+    .cz-post {
+        padding: 1rem;
+    }
+    .cz-post h2 {
+        font-size: 1.8em;
+    }
+    .cz-post p, .cz-content {
+        font-size: 1em;
+    }
+    .post-container {
+        padding: 0rem;
+    }
+    
+}
+
+.cz-content a {
+    color: #8E24AA;
+    text-decoration: underline ;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cz-content a:hover {
+    color: #BF5A39;
+}
+
+.cz-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
