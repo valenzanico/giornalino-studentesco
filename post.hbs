@@ -66,6 +66,9 @@
     </div>
 
     <footer class="gh-footer gh-canvas">
+        <div class="gz-post-tag">
+            {{tags separator=" &bull; " prefix="Tag: "}}
+        </div>
 
         <div class="gh-post-authors">
             Scritto da {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}

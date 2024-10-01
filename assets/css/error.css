@@ -1,0 +1,37 @@
+.cz-error-code {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cz-error-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.cz-error-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cz-error {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cz-error-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}

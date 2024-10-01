@@ -2,9 +2,10 @@
 /* ---------------------------------------------------------- */
 
 :root {
-   /*--secondary-color: #bf5a39;*/
+   
     --primary-color: #8E24AA;
-    --secondary-color: #FFB300;
+    /* --secondary-color: #FFB300; */
+    --secondary-color: #bf5a39;
     --dark-color: #2E0854;
     --light-color: #F3E5F5;
     --font-light: 100;

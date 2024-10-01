@@ -14,7 +14,7 @@
     {{#is "home"}}
     <style>
     body {
-        background-image: url("https://i.ibb.co/grMwxMB/purple-Cremona.png") !important;
+        background-image: url("/assets/purple_Cremona.png") !important;
     }
 </style>
 {{/is}}
@@ -25,8 +25,8 @@
 
 
 <header class="cz-head">
-        <div class="issue-number">№ {{@custom.journal_number}}</div>
-        <h1 class="index-title">{{@site.title}}</h1>
+        <a href="/tag/numero-{{@custom.journal_number}}/"><div class="issue-number">№ {{@custom.journal_number}}</div></a>
+        <a href="/"><h1 class="index-title">{{@site.title}}</h1></a>
         <p class="subtitle">{{@site.description}}</p>
     </header>
  {{navigation}}   
@@ -40,6 +40,9 @@
 </main>
 
 <footer class="cz-foot ">
+    <div class="instagram-icon">
+        <a href="https://www.instagram.com/cz_succeede/"><img src="/assets/instagram.png" alt="instagram"></a>
+    </div>
     <div class="gh-container">
         <p>&copy; 2024 CZ-SUCCEDE, Nicolò Valenza, <a href="https://algorithm-net.com">Algorithm-net.com</a></p>
      

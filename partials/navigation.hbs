@@ -1,9 +1,11 @@
 
 <div class="cz-nav">
+       
         <ul>
+            
             {{#foreach navigation}}
             <li><a href="{{url}}">{{label}}</a></li>
                {{/foreach}}
-
+            <li><a data-ghost-search>cerca 🔎</a></li>
         </ul>
     </div>

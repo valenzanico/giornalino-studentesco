@@ -57,3 +57,22 @@
     height: auto;
     margin: 1rem 0;
 }
+
+.cz-author {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    
+  
+    
+}
+.cz-author-image {
+    height: 12vmin;
+    width: 12vmin;
+    margin: 0 auto 1.5em;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}

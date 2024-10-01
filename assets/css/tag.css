@@ -1,0 +1,49 @@
+
+
+.cz-tag-container {
+
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+    
+
+    .cz-tag {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+    }
+.cz-tag-head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+    .cz-tag-image {
+        /* it's the cover of the new number of the journal so it must be centered*/
+        /*it's the feature iamge so it muste be smaller than the article image */
+        margin: 0 auto;
+        width: 35%;
+
+
+        
+    }
+    .cz-tag-title {
+        /* it's the title of the new number of the journal so it must be centered  and bigger*/
+        text-align: center;
+        font-size: 3.5em;
+        color: #333;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #333;
+        padding-bottom: 0.5rem;
+        
+    }
+    .cz-post-feed {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+

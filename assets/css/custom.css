@@ -76,6 +76,17 @@ body {
 .cz-nav ul li a:hover {
     background-color: rgba(255,255,255,0.1);
 }
+
+.cz nav .cz-search-button {
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px !important; 
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease !important;
+}
 .cz-postfeed {
     padding: 2rem;
     display: grid;
@@ -117,6 +128,11 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 50%;
     font-weight: bold;
+    
+}
+.issue-number a {
+    color: var(--dark-color);
+    text-decoration: none;
 }
 @media (max-width: 768px) {
     .index-title {
@@ -130,4 +146,5 @@ body {
         margin: 0.5rem 0;
     }
 }
+
 

@@ -1,29 +1,29 @@
 {{!< default}}
 
-<div class="gh-page">
-    <div class="gh-container">
+<div class="cz-tag-container">
+    <div class="cz-tag">
 
         {{#tag}}
-        <header class="gh-page-head">
+        <header class="cz-tag-head">
 
-            <h1>{{name}}</h1>
+            <h2 class="cz-tag-title">{{name}}</h2>
 
             <p>
                 {{#if description}}
                     {{description}}
                 {{else}}
-                    A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
+                    I post di collegati a questo tag sono {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
                 {{/if}}
             </p>
 
             {{#if feature_image}}
-                <img class="gh-page-image" src="{{feature_image}}" alt="{{name}}" />
+                <img class="cz-tag-image" src="{{feature_image}}" alt="{{name}}" />
             {{/if}}
 
         </header>
         {{/tag}}
 
-        <div class="gh-postfeed">
+        <div class="cz-postfeed">
         {{#foreach posts}}
 
             {{> "card"}} {{!-- partials/card.hbs --}}
