@@ -138,13 +138,26 @@ body {
     .index-title {
         font-size: 3.5rem;
     }
+    .cz-nav {
+        position: relative;
+    }
     .cz-nav ul {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
     .cz-nav ul li {
         margin: 0.5rem 0;
+        flex-basis: 50%;
+        text-align: center;
     }
 }
 
 
+.footer-instagram-icon {
+    width: 30px;
+    height: 30px;
+    fill: var(--dark-color);
+    margin: 0 0.5rem;
+
+    
+}

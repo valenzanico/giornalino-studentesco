@@ -28,6 +28,8 @@
 @media (max-width: 600px) {
     .cz-post {
         padding: 1rem;
+        border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
     }
     .cz-post h2 {
         font-size: 1.8em;
@@ -63,10 +65,19 @@
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    align-items: center;
+    align-content: center;
     
   
     
+}
+
+.cz-author-head h2 {
+    text-align: center;
+    font-size: 3.5em;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
 .cz-author-image {
     height: 12vmin;
@@ -75,4 +86,30 @@
     border-radius: 100%;
     overflow: hidden;
     object-fit: cover;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+@media (max-width: 600px) {
+    .cz-author {
+        padding: 1rem;
+        border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+    }
+    .cz-author-head h2 {
+        font-size: 2.5em;
+    }
+    .cz-author-image {
+        height: 8vmin;
+        width: 8vmin;
+    }
+    
 }

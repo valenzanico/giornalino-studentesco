@@ -23,11 +23,12 @@
         /* it's the cover of the new number of the journal so it must be centered*/
         /*it's the feature iamge so it muste be smaller than the article image */
         margin: 0 auto;
-        width: 35%;
+        width: 60%;
 
 
         
     }
+
     .cz-tag-title {
         /* it's the title of the new number of the journal so it must be centered  and bigger*/
         text-align: center;
@@ -38,6 +39,15 @@
         padding-bottom: 0.5rem;
         
     }
+    .cz-tag-description {
+        /* it's the description of the new number of the journal so it must be centered */
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-size: 1.1em;
+        line-height: 1.8;
+        color: #444;
+        margin-bottom: 1.5rem;
+    }
     .cz-post-feed {
         padding: 2rem;
         display: grid;
@@ -47,3 +57,21 @@
         margin: 0 auto;
     }
 
+
+    @media (max-width: 768px) {
+        .cz-tag {
+            padding: 1rem;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+        .cz-tag-title {
+            font-size: 2.5em;
+        }
+
+        .cz-tag-container {
+            padding: 0rem;
+        }
+        .cz-tag-image {
+            width: 80%;
+        }
+    }
